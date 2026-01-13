@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# 🛒 Cart Application (React + FakeStoreAPI)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive shopping cart application built using **React** that fetches products from the **Fake Store API**, allows users to add/remove items from the cart, and view cart details in a modal.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- Fetches product data from Fake Store API
+- Displays products in a responsive grid layout
+- Add products to cart
+- Prevents duplicate items in cart with alert
+- Displays cart item count in the navbar
+- Cart modal with:
+  - Product image
+  - Product title
+  - Price
+  - Remove from cart option
+- Responsive navbar for desktop and mobile screens
+- Clean, readable, and modular React code
+- Fully responsive design
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧰 Tech Stack
 
-### `npm test`
+- **React (Hooks)**
+- **JavaScript (ES6+)**
+- **CSS (Flexbox & Grid)**
+- **Fake Store API**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🔗 API Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- FakeStore API - https://fakestoreapi.com/products/
+  
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📱 Responsive Design
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+- **Desktop** : Navbar with title and cart button aligned horizontally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Mobile** : Navbar stacks vertically with centered elements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Product cards and cart modal adapt to all screen sizes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
+## 🧠 Key Learnings
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React state management using useState
+- Data fetching using useEffect
+- Component-based architecture
+- Passing data via props
+- Responsive UI using CSS Grid & Flexbox
+- Modal and overlay handling
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+## 🌐 Deployment URL
+---
+- https://cartapplicationyj.netlify.app/
